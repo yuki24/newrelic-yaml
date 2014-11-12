@@ -1,7 +1,2 @@
-require "newrelic/yaml/version"
-
-module Newrelic
-  module Yaml
-    # Your code goes here...
-  end
-end
+require 'new_relic/yaml/version'
+require 'new_relic/agent/instrumentation/yaml'
